@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "id": "contact_name",
+      "text": "Your name",
+      "type": "short-text",
+      "category": "Contact"
+    },
+    {
+      "id": "business_name",
+      "text": "Agency / brokerage name",
+      "type": "short-text",
+      "category": "Contact"
+    },
+    {
+      "id": "email",
+      "text": "Email to send the report to",
+      "type": "short-text",
+      "category": "Contact"
+    },
+    {
+      "id": "org_size",
+      "text": "How many people work at your agency?",
+      "type": "multiple-choice",
+      "options": ["1-10", "11-50", "51-200", "201-500", "500+"],
+      "category": "Profile & Tools"
+    },
+    {
+      "id": "core_tools",
+      "text": "Which of these tools do you use? (check all that apply)",
+      "type": "multiple-choice",
+      "multi": true,
+      "options": [
+        "Applied Epic",
+        "Vertafore AMS360",
+        "HawkSoft",
+        "Salesforce",
+        "HubSpot",
+        "Zoho CRM",
+        "RingCentral / VoIP",
+        "QuickBooks / Xero",
+        "Zapier / Make.com"
+      ],
+      "category": "Profile & Tools"
+    },
+    {
+      "id": "other_tools",
+      "text": "Other software you rely on (names comma-separated)",
+      "type": "long-text",
+      "category": "Profile & Tools"
+    },
+    {
+      "id": "ai_familiarity",
+      "text": "Leadership’s comfort level with AI ideas",
+      "type": "multiple-choice",
+      "options": [
+        "None",
+        "Somewhat familiar",
+        "Trying small pilots",
+        "Using AI daily"
+      ],
+      "category": "Strategy & Culture"
+    },
+    {
+      "id": "ai_vision",
+      "text": "Have you linked AI goals to clear business results?",
+      "type": "multiple-choice",
+      "options": [
+        "Not yet",
+        "Rough ideas",
+        "Yes – written goals",
+        "Yes – goals and budget"
+      ],
+      "category": "Strategy & Culture"
+    },
+    {
+      "id": "manual_workload",
+      "text": "Roughly what % of daily tasks are still manual?",
+      "type": "multiple-choice",
+      "options": [">75%", "50-75%", "25-49%", "<25%"],
+      "category": "Process"
+    },
+    {
+      "id": "customer_self_service",
+      "text": "Do clients have any self-service portal or chatbot today?",
+      "type": "yes/no",
+      "category": "Process"
+    },
+    {
+      "id": "data_quality",
+      "text": "How clean and consistent is your policy & claims data?",
+      "type": "multiple-choice",
+      "options": ["Poor", "Fair", "Good", "Excellent"],
+      "category": "Data"
+    },
+    {
+      "id": "data_sharing",
+      "text": "Can your systems share data without manual exports?",
+      "type": "yes/no",
+      "category": "Data"
+    },
+    {
+      "id": "compliance_confidence",
+      "text": "Confidence you meet all state regulations",
+      "type": "multiple-choice",
+      "options": ["Low", "Medium", "High"],
+      "category": "Compliance"
+    },
+    {
+      "id": "mfa_everywhere",
+      "text": "Is multi-factor authentication (MFA) on for EVERY system?",
+      "type": "yes/no",
+      "category": "Compliance"
+    },
+    {
+      "id": "state_footprint",
+      "text": "List U.S. states where you sell policies",
+      "type": "long-text",
+      "category": "Compliance"
+    },
+    {
+      "id": "pain_points",
+      "text": "Biggest pain point you’d love AI to solve",
+      "type": "long-text",
+      "category": "Open"
+    }
+  ]
+}

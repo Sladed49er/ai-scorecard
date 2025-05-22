@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    /* ----------------------------------------------------------------
+       Basics
+    ---------------------------------------------------------------- */
+    "target": "es2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "isolatedModules": true,
+    "incremental": true,
+
+    /* ----------------------------------------------------------------
+       React / JSX
+    ---------------------------------------------------------------- */
+    "jsx": "preserve",
+    "types": ["node"],          // Next.js adds its own types automatically
+
+    /* ----------------------------------------------------------------
+       Path alias  →  '@/...'  resolves to  'src/...'
+    ---------------------------------------------------------------- */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+
+    /* ----------------------------------------------------------------
+       Misc
+    ---------------------------------------------------------------- */
+    "resolveJsonModule": true,  // lets you import JSON directly
+    "esModuleInterop": true
+  },
+
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

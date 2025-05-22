@@ -1,0 +1,6 @@
+# build artefacts
+.next
+node_modules
+
+# secrets & local overrides
+.env*
